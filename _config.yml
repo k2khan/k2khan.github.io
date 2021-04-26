@@ -68,7 +68,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          - Fully-fledged scheme interpreter written in Haskell
+          *Fully-fledged scheme interpreter written in Haskell.*
         
           After learning Haskell in my programming languages class, I was intrigued to learn more about Haskell and compilers.
 
@@ -84,7 +84,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          - Economical game where you try to monopolize paperclips.
+          *"Monopoly" game where you try to take over the world's supply of paperclips*
 
           Inspired by [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html), we built this game as our final project for our software design class.
 

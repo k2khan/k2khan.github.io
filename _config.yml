@@ -72,6 +72,22 @@ content:
         
           After learning Haskell in my programming languages class, I was intrigued to learn more about Haskell and compilers.
 
+      - layout: left
+        title: Clippy
+        link: github.com/k2khan/clippy
+        link_text: Project Website
+        additional_links:
+          - title: k2khan/clippy
+            icon: fab fa-github
+            url: github.com/k2khan/clippy
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          - Economical game where you try to monopolize paperclips.
+
+          Inspired by [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html), we built this game as our final project for our software design class.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:

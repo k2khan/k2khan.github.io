@@ -68,7 +68,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          *Fully-fledged scheme interpreter written in Haskell.*
+          *Full-fledged scheme interpreter written in Haskell.*
         
           After learning Haskell in my programming languages class, I was intrigued to learn more about Haskell and compilers.
 

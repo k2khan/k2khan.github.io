@@ -59,7 +59,7 @@ content:
       - layout: left
         title: Scheme Interpreter 
         link: github.com/k2khan/scheming-in-haskell
-        link_text: Project Website
+        link_text: Link to Project 
         additional_links:
           - title: k2khan/scheming-in-haskell 
             icon: fab fa-github
@@ -75,7 +75,7 @@ content:
       - layout: left
         title: Clippy
         link: github.com/k2khan/clippy
-        link_text: Project Website
+        link_text: Link to Project
         additional_links:
           - title: k2khan/clippy
             icon: fab fa-github

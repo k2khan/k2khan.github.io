@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Hamad Khan 
-title: Software Engineer 
+title: Under Construction 
 email: hamad.khan@slu.edu
 # website: k2khan.github.io 
 
@@ -48,7 +48,7 @@ linkedin_username: hamad-khan-04987b164
 # about_title: About Me
 about_profile_image: images/profile-pic.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Hamad. I'm currently finishing up my B.S. in computer science w/ a minor in math. 
+  Hi, I’m Hamad. I’m currently pursuing a B.S. in computer science and a minor in math at Saint Louis University.
 
   I am most skilled in: <mark>Eating Pizza</mark>
 
@@ -87,6 +87,22 @@ content:
           *"Monopoly" game where you try to take over the world's supply of paperclips*
 
           Inspired by [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html), we built this game as our final project for our software design class.
+
+      - layout: left
+        title: CoWalker 
+        link: github.com/k2khan/coWalker
+        link_text: Link to Project
+        additional_links:
+          - title: k2khan/coWalker
+            icon: fab fa-github
+            url: github.com/k2khan/coWalker
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          *CoWalker: Campus Safety*  
+
+          Built during UMSLHack2020. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)

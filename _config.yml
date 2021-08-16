@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Hamad Khan 
-title: Under Construction 
+title: Software Engineer 
 email: hamad.khan@slu.edu
 # website: k2khan.github.io 
 
@@ -48,14 +48,69 @@ linkedin_username: hamad-khan-04987b164
 # about_title: About Me
 about_profile_image: images/profile-pic.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I’m Hamad. I’m currently pursuing a B.S. in computer science and a minor in math at Saint Louis University.
+  Hi, I’m Hamad. I’m currently pursuing a B.S. in computer science and a minor in math at Saint Louis University  
+  I'm currently looking for 2022 new grad opportunities!
 
-  I am most skilled in: <mark>Eating Pizza</mark>
+  [You can find my resume here.](assets/Hamad_Khan_Fall_2021.pdf)
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: U.S. Bank
+        sub_title: Software Development Intern
+        caption: June 2021 - Aug 2021
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          Consumer Originations team
+
+      - layout: left
+        title: U.S. Bank
+        sub_title: Software Development Intern
+        caption: June 2020 - Aug 2020 
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          Mortgage Roadmap Development team
+        
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Dog Breed Visualization 
+        link: github.com/k2khan/deepLearning
+        link_text: Link to Project
+        additional_links:
+          - title: k2khan/deepLearning
+            icon: fab fa-github
+            url: github.com/k2khan/deepLearning
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          *Dog Breed Visualization and Classification*
+
+          - Used CNN visualization techniques, Class Activation Mapping (CAM) and Gradient-Weighted CAM techniques to highlight differences in feature extraction between common pretrained models.  
+
+
+      - layout: left
+        title: Scene Recognition 
+        #link: github.com/k2khan/deepLearning
+        #link_text: Link to Project
+        #additional_links:
+        #- title: k2khan/deepLearning
+        #    icon: fab fa-github
+        #    url: github.com/k2khan/deepLearning
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          *Implemented the Bag of Visual Words technique in correspondence with kNN to classify images.*
+
+          - Achieved 77% accuracy using Harris keypoints and Chi2 distance.
+
+
       - layout: left
         title: Scheme Interpreter 
         link: github.com/k2khan/scheming-in-haskell
@@ -70,7 +125,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           *Full-fledged scheme interpreter written in Haskell.*
         
-          After learning Haskell in my programming languages class, I was intrigued to learn more about Haskell and compilers.
+          - After learning Haskell in my programming languages class, I was intrigued to learn more about Haskell and compilers.
 
       - layout: left
         title: Clippy
@@ -86,7 +141,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           *"Monopoly" game where you try to take over the world's supply of paperclips*
 
-          Inspired by [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html), we built this game as our final project for our software design class.
+          - Inspired by [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html), we built this game as our final project for our software design class.
 
       - layout: left
         title: CoWalker 
@@ -102,26 +157,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           *CoWalker: Campus Safety*  
 
-          Built during UMSLHack2020. 
+          - Built during UMSLHack2020. 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: U.S. Bank
-        sub_title: Software Development Intern
-        caption: June 2021 - Aug 2021
-        #quote: >
-        description: | # this will include new lines to allow paragraphs
-          Will have more fun.
-
-      - layout: left
-        title: U.S. Bank
-        sub_title: Software Development Intern
-        caption: June 2020 - Aug 2020 
-        #quote: >
-        description: | # this will include new lines to allow paragraphs
-          Had some fun.
 
 
   - title: Education # Title for the section
@@ -134,12 +171,13 @@ content:
         sub_title: 3.86/4.0 GPA
         #quote: >
         description: | # this will include new lines to allow paragraphs
-          SLU is cool.
+          Founding member and Chief Communications officer of L'Avenir tutoring from Jan 2019 - May 2021.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Currently learning Android development.
       - Running/Lifting
       - Gaming (Dota2/CSGO)
 
